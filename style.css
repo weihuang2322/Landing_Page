@@ -1,0 +1,29 @@
+.container {
+padding: 16px;
+background: #e5e7eb;
+display: flex;
+flex-direction: column;
+height: 20em;
+}
+
+.first {
+background-color: #1F2937;
+}
+
+.second {
+
+}
+
+.third {
+background-color: #e5e7eb;
+
+}
+
+.fourth {
+
+}
+
+.footer{
+background-color: #1F2937;
+
+}

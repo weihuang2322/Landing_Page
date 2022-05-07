@@ -1,9 +1,16 @@
 .container {
-padding: 16px;
-background: #e5e7eb;
+background: white;
 display: flex;
 flex-direction: column;
-height: 20em;
+
+}
+
+body div{
+    flex: 1 1 1;
+    height: 15em;
+    border: 4px solid black;
+    justify-content: center;
+    align-items: center;
 }
 
 .first {
@@ -15,15 +22,24 @@ background-color: #1F2937;
 }
 
 .third {
+display:flex;
+flex-direction: column;
 background-color: #e5e7eb;
-
+color: #1F2937;
+font-size: 24px;
 }
 
-.fourth {
 
+.fourth {
+display: flex;
+flex-direction: column;
+align-items: stretch;
 }
 
 .footer{
+display: flex;
 background-color: #1F2937;
-
+margin-top: auto;
+height: 4em;
+color:white;
 }
